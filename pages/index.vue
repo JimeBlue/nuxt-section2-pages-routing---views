@@ -29,12 +29,7 @@ export default {
   components: {
     Logo
   },
-  // methods: {
-  //   goToProducts() {
-  //     // Navigate programatically to /products
-  //     this.$router.push('/products/')
-  //   }
-  // }
+
 }
 </script>
 
