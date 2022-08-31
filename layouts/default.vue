@@ -1,8 +1,28 @@
 <template>
   <div>
+    <!-- 9) Use the Header component.
+    Now the Header component can be seen 
+    in all pages -->
+    <Header />
     <nuxt/>
   </div>
 </template>
+
+<script>
+  /* 7) Import the Header component.
+  IMPORTANT: notice the @ in the inport.
+  This is an alias understood by webpack,
+  which will be replaced by the root folder*/
+  import Header from '@/components/Header'
+  export default {
+     // 8) Add the Header component 
+  components: {
+    Header
+  },
+
+  }
+
+</script>
 
 <style>
 html
